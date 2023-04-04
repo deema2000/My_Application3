@@ -7,7 +7,7 @@
     android:background="@drawable/img_1"
     tools:context=".MainActivity">
 
-
+deeema
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         android:textColor="@color/black"
         android:textSize="35sp">/
     </TextView>
-gsdggd
+
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"

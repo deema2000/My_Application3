@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        go = (Button)findViewById(R.id.go);
+        Button go = (Button) findViewById(R.id.go);
     }
 public void onclick1 (View V) {
 

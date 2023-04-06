@@ -13,14 +13,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        go  = (Button)findViewById(R.id.go);
-
+        go = (Button)findViewById(R.id.go);
     }
 public void onclick1 (View V) {
 
     Intent go = new Intent(this,page2.class);
     startActivities(go);
 }
+
+    private void startActivities(Intent go) {
+    }
 
 
 }

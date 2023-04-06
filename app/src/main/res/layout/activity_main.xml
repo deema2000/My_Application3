@@ -31,7 +31,7 @@
         android:layout_marginBottom="10dp"
         android:background="@color/material_dynamic_secondary70"
         android:drawableStart="@drawable/baseline_person_24"
-        android:hint="  User name"
+        android:hint="User name"
         android:padding="20dp"
         android:textColor="@color/black" />
 
@@ -50,14 +50,18 @@
         android:inputType="textPassword" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/go"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/loginbtn"
         android:layout_below="@id/pass"
-        android:text="@string/login"
-        android:backgroundTint="@color/design_default_color_secondary"
         android:layout_centerHorizontal="true"
-        android:layout_margin="50dp" />
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:onClick="go"
+        android:text="@string/login" />
 
 
 </RelativeLayout>

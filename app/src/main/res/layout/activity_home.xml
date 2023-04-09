@@ -18,68 +18,74 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profile"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:visibility="visible"/>
+        tools:layout_editor_absoluteY="16dp"/>
 
     <ImageButton
         android:id="@+id/driver"
         android:layout_width="161dp"
         android:layout_height="129dp"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/d1"
         app:layout_constraintEnd_toEndOf="200"
         app:layout_constraintStart_toStartOf="100"
         app:layout_constraintTop_toTopOf="400"
+        app:srcCompat="@drawable/d1"
         tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="426dp"/>
+        tools:layout_editor_absoluteY="426dp" />
 
     <ImageButton
         android:id="@+id/chat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/chat"
         app:layout_constraintEnd_toEndOf="200"
         app:layout_constraintStart_toStartOf="100"
         app:layout_constraintTop_toTopOf=""
+        app:srcCompat="@drawable/chat"
         tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="273dp"/>
+        tools:layout_editor_absoluteY="273dp" />
 
     <ImageButton
         android:id="@+id/cal"
         android:layout_width="145dp"
         android:layout_height="132dp"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/calander"
         app:layout_constraintEnd_toEndOf=""
         app:layout_constraintStart_toStartOf=""
         app:layout_constraintTop_toTopOf=""
+        app:srcCompat="@drawable/calander"
         tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="266dp"/>
+        tools:layout_editor_absoluteY="266dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"></LinearLayout>
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="٣٥٠dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

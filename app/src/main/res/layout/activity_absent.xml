@@ -6,4 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".Absent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="00dp"
+        android:layout_height="wrap_content"
+        android:text="Is your child will be absent?"
+        android:textColor="#3F51B5"
+        android:textColorLink="#2196F3"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomorrow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="١٠٨dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next 2 days"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whole week"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="٢٠dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/abs"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="240dp" />

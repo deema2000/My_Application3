@@ -24,7 +24,7 @@
         android:text="Tomorrow"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="140dp" />
 
     <CheckBox
@@ -34,7 +34,7 @@
         android:text="Next 2 days"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="240dp" />
 
     <CheckBox
@@ -44,7 +44,7 @@
         android:text="Whole week"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="340dp" />
 
     <ImageView

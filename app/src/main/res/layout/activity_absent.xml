@@ -12,40 +12,40 @@
         android:layout_height="wrap_content"
         android:text="Is your child will be absent?"
         android:textColor="#2AC8DC"
-        android:textSize="32sp"
+        android:textSize="29sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="100dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="30dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tomorrow"
-        android:textSize="26sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="240dp" />
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="140dp" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next 2 days"
-        android:textSize="26sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="340dp" />
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="240dp" />
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Whole week"
-        android:textSize="26sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="440dp" />
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="340dp" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -56,6 +56,6 @@
         android:scrollbarFadeDuration="150"
         android:scrollbarSize="4dp"
         app:srcCompat="@drawable/ab"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="520dp" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="320dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

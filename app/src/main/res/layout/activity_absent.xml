@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Is your child will be absent?"
         android:textColor="#2AC8DC"
-        android:textSize="31sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="100dp" />

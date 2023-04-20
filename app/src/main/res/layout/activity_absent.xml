@@ -14,7 +14,7 @@
         android:textColor="#2AC8DC"
         android:textSize="32sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="100dp" />
 
     <CheckBox

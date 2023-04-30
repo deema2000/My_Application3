@@ -19,7 +19,9 @@
         android:gravity="center"
         android:text="Sign In"
         android:textColor="@color/black"
-        android:textSize="35sp"></TextView>
+        android:textSize="35sp">
+
+    </TextView>
 
     <EditText
         android:id="@+id/username"
@@ -78,7 +80,6 @@
         android:layout_marginStart="48dp"
         android:layout_marginEnd="51dp"
         android:gravity="center"
-        sa
         app:srcCompat="@drawable/logo3" />
 
     <TextView

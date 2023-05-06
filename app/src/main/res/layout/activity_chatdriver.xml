@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".chatdriver">
 
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="٥٧dp"
+        tools:layout_editor_absoluteY="٧٧dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

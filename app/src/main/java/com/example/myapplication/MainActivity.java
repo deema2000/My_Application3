@@ -26,27 +26,18 @@ public class MainActivity extends AppCompatActivity {
 
         lusername = findViewById(R.id.username);
           lpassword   = findViewById(R.id.pass);
-        lbtn = findViewById(R.id.go);
-
-
-                lbtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        if(lusername.getText().toString().equals("sara") && lpassword.getText().toString().equals("123456")) {
-                            Toast.makeText(MainActivity.this, "Logain sucessful", Toast.LENGTH_SHORT).show();
-                        } else {
-                            Toast.makeText(MainActivity.this, "LOGAIN Faild", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
 
         Button button = findViewById(R.id.go);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(lusername.getText().toString().equals("sara") && lpassword.getText().toString().equals("123456")) {
+                    Intent intent=new Intent(MainActivity.this,home.class);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(MainActivity.this, "LOGAIN Faild", Toast.LENGTH_SHORT).show();
+                }
 
-                Intent intent=new Intent(MainActivity.this,home.class);
-                startActivity(intent);
             }
         });
 

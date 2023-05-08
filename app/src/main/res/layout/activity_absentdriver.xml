@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgraound"
     tools:context=".absentdriver">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/baseline_person_24"
-        tools:layout_editor_absoluteX="٤٢dp"
-        tools:layout_editor_absoluteY="٥٨dp" />
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="392dp"
+        android:layout_height="58dp"
+        android:text="Note: If you don't have your ID or password please contact with your school"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="274dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

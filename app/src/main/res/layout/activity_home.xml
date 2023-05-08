@@ -4,54 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#82d2db"
+    android:background="@drawable/backgraound"
     tools:context=".home">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="120dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="159dp"
-        app:layout_constraintBottom_toTopOf="@+id/butchat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
-        app:srcCompat="@drawable/chat" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="110dp"
-        android:layout_height="140dp"
-        android:background="@color/white"
+        android:layout_width="159dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.784"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
-        app:srcCompat="@drawable/calander" />
+        app:layout_constraintVertical_bias="0.33"
+        app:srcCompat="@drawable/chatnew" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="0dp"
+        android:layout_width="116dp"
+        android:layout_height="131dp"
         android:layout_marginEnd="29dp"
-        android:layout_marginBottom="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/butchat"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/d1" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676"
+        app:srcCompat="@drawable/driverinfomation" />
 
     <ImageButton
         android:id="@+id/profile"
-        android:layout_width="120dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="280dp"
+        android:layout_width="115dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="232dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="@android:color/transparent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,39 +45,55 @@
 
     <Button
         android:id="@+id/butchat"
-        android:layout_width="130dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="44dp"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="173dp"
         android:backgroundTint="#5d8aa1"
         android:text="Chat"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.662" />
 
     <Button
         android:id="@+id/butcal"
-        android:layout_width="150dp"
+        android:layout_width="159dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="288dp"
         android:backgroundTint="#5d8aa1"
         android:text="Absent Schedule "
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
-        app:layout_constraintStart_toEndOf="@+id/butchat" />
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toEndOf="@+id/butchat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
 
     <Button
         android:id="@+id/butdri"
-        android:layout_width="150dp"
-        android:layout_height="70dp"
+        android:layout_width="170dp"
+        android:layout_height="63dp"
         android:backgroundTint="#5d8aa1"
         android:text="Driver Information"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butchat"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintVertical_bias="0.46" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        app:srcCompat="@drawable/cal" />
 </androidx.constraintlayout.widget.ConstraintLayout>

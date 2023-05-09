@@ -46,8 +46,9 @@ public class MainActivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful())
                                 {
-                                    Toast.makeText(MainActivity.this, "LOGIN Success", Toast.LENGTH_SHORT).show();
-                                    Log.e("SGN","Login Success");
+                                    Intent intent=new Intent(MainActivity.this,home.class);
+                                    startActivity(intent);
+
                                 }
                                 else{
                                     Toast.makeText(MainActivity.this, "LOGIN ailed", Toast.LENGTH_SHORT).show();
@@ -58,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
                /* if(lusername.getText().toString().equals("sara") && lpassword.getText().toString().equals("123456")) {
                     Intent intent=new Intent(MainActivity.this,home.class);
                     startActivity(intent);
+                    Toast.makeText(MainActivity.this, "LOGIN Success", Toast.LENGTH_SHORT).show();
+                                    Log.e("SGN","Login Success");
                 } else {
                     Toast.makeText(MainActivity.this, "LOGAIN Faild", Toast.LENGTH_SHORT).show();
                 }*/

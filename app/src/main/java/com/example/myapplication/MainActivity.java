@@ -48,19 +48,21 @@ public class MainActivity extends AppCompatActivity {
                                 {
                                     Intent intent=new Intent(MainActivity.this,home.class);
                                     startActivity(intent);
+                                    Toast.makeText(MainActivity.this, "LOGIN Success", Toast.LENGTH_SHORT).show();
+                                    Log.e("SGN","Login Success");
 
                                 }
                                 else{
-                                    Toast.makeText(MainActivity.this, "LOGIN ailed", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MainActivity.this, "LOGIN failed", Toast.LENGTH_SHORT).show();
                                     Log.e("SGN","Login Failed");
                                 }
                             }
                         });
+
                /* if(lusername.getText().toString().equals("sara") && lpassword.getText().toString().equals("123456")) {
                     Intent intent=new Intent(MainActivity.this,home.class);
                     startActivity(intent);
-                    Toast.makeText(MainActivity.this, "LOGIN Success", Toast.LENGTH_SHORT).show();
-                                    Log.e("SGN","Login Success");
+
                 } else {
                     Toast.makeText(MainActivity.this, "LOGAIN Faild", Toast.LENGTH_SHORT).show();
                 }*/
